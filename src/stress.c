@@ -95,12 +95,12 @@ main (int argc, char **argv)
     long long do_cpu = 0;
     long long do_io = 0;
     long long do_vm = 0;
-    long long do_vm_bytes = 256 * 1024 * 1024;
+    long long do_vm_bytes = 128 * 1024;
     long long do_vm_stride = 4096;
     long long do_vm_hang = -1;
     int do_vm_keep = 0;
     long long do_hdd = 0;
-    long long do_hdd_bytes = 1024 * 1024 * 1024;
+    long long do_hdd_bytes = 16 * 1024 * 1024;
 
     /* Record our start time.  */
     if ((starttime = time (NULL)) == -1)
